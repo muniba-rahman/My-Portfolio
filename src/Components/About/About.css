@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+.about{
+    /* background-color: #1d3461; */
+    /* height: 250vh; */
+    padding: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.about-img img{
+    width: 500px;
+    height: auto;
+    padding: 3rem;
+}
+
+.about-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-heading{
+    font-family: 'Orbitron', sans-serif;
+    color: #ff9b42;
+    font-size: 2.3rem;
+}
+
+.about-para{
+    color: #C5DFF8;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.coding-lang{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.p-icons{
+    font-size: 1.8rem;
+    padding: 5px;
+}
+
+#html{
+    color: #ff9b42;
+}
+#css{
+    color: rgb(98, 98, 250);
+}
+#js{
+    color: orange;
+}
+#bootstrap{
+    color: plum;
+}
+#react{
+    color: rgb(53, 226, 128);
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    flex-direction: row;
+}
+.section2{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    flex-direction: row;
+}
+
+.edu-heading{
+    color: #30d5c8;
+}
+
+.highlight{
+    color: #d7ba89;
+}
+.edu-para, .edu-name{
+    color: #C5DFF8;
+}
+
+.about-img2{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 550px;
+}
+
+@media (max-width: 1080px){
+    .section1, .section2{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-content{
+        width: 80%;
+    }
+    .about-img{
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px){
+    .about-heading{
+        font-size: 2rem;
+    }
+    .about-para{
+        font-size: 0.9rem;
+    }
+    .about-img img{
+        width: 285px;
+    }
+    .about-content{
+        width: 100%;
+    }
+}
+
+@media (max-width: 300px){
+    .section1, .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .about-content{
+        width: 100%;
+    }
+    .about-img img{
+        width: 190px;
+    }
+}

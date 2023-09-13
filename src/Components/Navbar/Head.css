@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat &display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap'); */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    margin-left: 2rem;
+    font-weight: bold;
+    /* font-family: 'Orbitron', sans-serif !important; */
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: #C5DFF8 0px 10px 20px -15px, #C5DFF8 0px 10px 20px -10px;
+}
+
+/* .nav-links{
+    color: #C5DFF8;
+}
+
+.nav-links:hover{
+    text-decoration: underline;
+    color: #cc7722;
+} */
+
+.navbar-toggler-icon{
+    color: #C5DFF8;
+}
+
+.profile{
+    font-size: 1.4rem;
+}
+
+.navbar-nav{
+    margin-right: 3rem;
+}
